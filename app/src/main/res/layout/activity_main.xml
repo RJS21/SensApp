@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="batsaver.ronak_harsha.com.batsaver.MainActivity">
+
+
+    <EditText
+        android:id="@+id/tEmergNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:inputType="phone"
+        android:hint="Enter emergency number"
+        />
+
+    <EditText
+        android:id="@+id/tWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="15dp"
+        android:inputType="numberDecimal"
+        android:hint="Enter Weight(in lbs)"
+        />
+
+    <Button
+        android:id="@+id/btSetEmergNum"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Set emergency number"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btStartCalorieCount"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Start Calorie Count"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="25dp"/>
+
+   <!-- <Button
+        android:id="@+id/btEndCalorieCount"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="End Calorie Count"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"/>-->
+
+
+    <TextView
+        android:id="@+id/tPhoneFace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="100dp"
+     />
+
+
+    <TextView
+        android:id="@+id/tTempDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+     />
+
+    <TextView
+        android:id="@+id/tTempBool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="100dp"
+     />
+
+    <TextView
+        android:id="@+id/tProxBool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+     />
+
+</LinearLayout>
